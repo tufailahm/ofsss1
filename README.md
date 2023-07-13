@@ -315,7 +315,11 @@ table per concerte class
 
 Relationship mapping
 
+1-1
+1-M
+M-M
 
+Student	M	-	M Courses		- 3 table	student, courses and student_courses
 
 
 

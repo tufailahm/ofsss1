@@ -12,6 +12,55 @@ This JPA with EclipseLink program covers following topics:
 11. Simple case study for 2 hours on JPA
 
 
+JPA
+==============
+Java Persistence API
+
+
+Use case : I want to save product information in database
+
+productId
+productName
+quantityOnHand
+price
+
+Product p = new Product();	//1, HP,900,89999
+
+jpa.save(p);
+
+
+problems :
+table in database to be created manually
+
+
+Eclipselink
+
+
+
+persistence.xml	- db related stuffs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ======================================
 pom.xml

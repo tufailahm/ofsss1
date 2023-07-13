@@ -12,9 +12,15 @@
 			<property name="hibernate.hbm2ddl.auto" value="update" />
 				  <property name="eclipselink.ddl-generation" value="drop-and-create-tables"/>
       
-<property name="eclipselink.ddl-generation" value="create-or-extend-tables" />
-      <property name="eclipselink.ddl-generation.output-mode" value="galaxe" />
-    </properties>
+<!--             <property name="javax.persistence.jdbc.driver" value="oracle.jdbc.driver.OracleDriver" />
+      <property name="javax.persistence.jdbc.url"    value="jdbc:oracle:thin:@localhost:1521:xe" />
+      <property name="javax.persistence.jdbc.user" value="system" />
+      <property name="javax.persistence.jdbc.password" value="oracle" />
+                  <property name="hibernate.dialect" value="org.hibernate.dialect.OracleDialect" /> -->
+                  
+		<property name="eclipselink.ddl-generation" value="create-or-extend-tables" />
+     	 <property name="eclipselink.ddl-generation.output-mode" value="galaxe" />
+    	</properties>
 
   </persistence-unit>
 </persistence>

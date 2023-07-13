@@ -247,3 +247,108 @@ public class EntityManagerUtil {
 
   }
 }
+
+
+=============
+
+use case 2: How we can update and remove data from database using jpa
+
+
+use case 3: we have to retrieve all the product information and display
+
+JPQL - 
+
+** instead of working on tables , it works on pojos/models/entities
+
+
+select price from product;
+
+
+select cost from products;
+
+
+====================Named Query
+
+We will create a query inside pojo class
+
+====================Criteria 
+====================Native Query
+
+
+Association mapping
+
+	Employee
+		id
+		name
+
+
+	regular_employee extends employee
+		salary
+		bonus
+
+
+	contract_employee extends employee
+		pay_per_hour
+		duration
+
+
+
+database
+table per class		- 1 table
+table per sub class		-3 table
+		employee
+			id
+			name
+
+		regular_employee
+			id
+			salary
+			bonus
+	
+
+
+
+
+table per concerte class
+
+
+
+Relationship mapping
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
